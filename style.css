@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Noto+Serif+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap')
+*{
+margin:0px;
+padding:0px;
+}
+body{
+font-family: 'DM Sans', serif;
+font-family: 'Noto Serif JP', noto;
+font-family: 'Alegreya Sans SC', sans-serif;
+}
+.sans{
+font:sans-serif;
+}
+p{
+font:noto;
+margin:4px;
+}
+h2{
+margin-left:tpx;
+}
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 15px; /* Added */
+}
+.navigation {
+background:#18dcff;
+}
+.header{
+background:#5BC0DE;
+}
+.allcards{
+        background:ghostwhite;
+        transition: all 0.3s linear;
+        
+}
+.allcards:hover{
+box-shadow: 0 5px 7px rgba(0,0,0,0.15);
+  transform:translateY(-20px);
+  transition: all 0.3s linear;
+}
+
+.background{
+background: white;
+}
+.post1 {
+border-radius: 5%;
+            backdrop-filter:blur(2.5px);
+            color:black;
+            position:relative;
+                       }
+.arrow1{
+position:abolute;
+right:5%;
+top:10%;
+}
+
+.list{
+   list-style:none;
+   background:#474787;
+   border:2px solid lightgrey;
+   transition:all .2s ease;
+}
+ul .list a{
+ color:white;
+ transition:all .4s ease;
+}
+.list:hover{
+   background:#706fd3 ;
+   border:2px solid black;
+   transform:translateY(-20px);
+   box-shadow: 8 8px 10px rgba(0,0,0,0.2);
+}
+ul .list:hover a{
+   color:white;
+   text-decoration:none;
+}
